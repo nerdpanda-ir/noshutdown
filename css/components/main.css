@@ -1,0 +1,231 @@
+.tweetWrapper{
+    width: 294px;
+    height: 323px;
+}
+.tweetWrapper:hover .TabTitleIcon i {
+    transform: rotate(360deg);
+    transition: transform 500ms;
+}
+.tabTitlewrapper{
+    min-height: 40px;
+    background: chartreuse;
+    border-bottom: 2px solid #d4d4d4;
+    background: #f5f5f5;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.TabTitleIcon{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top:10px;
+}
+.TabTitleText {
+    margin-top: 12px;
+}
+.tweetbox{
+    height: 64px;
+    border-bottom: 2px solid #767676;
+    padding: 3px 0px;
+}
+.tweetbox a{
+    color: #333333;
+    width: 272px;
+    display: inline-block;
+}
+.tweetText{
+    font-size: 11px;
+    font-weight:bold;
+    line-height: 20px;
+    padding: 0px 10px;
+}
+.tagTweet{
+    color: #ef3f3e;
+
+}
+.tagTweet:before{
+    content: "#";
+}
+.tweetRightIcon{
+    width: 20px ;
+    height: 100%;
+}
+.tweetRightIcon i{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tweetWrapper ul li:last-child{
+    border-bottom: 0;
+}
+.DateTweet{
+    margin:0px 5px;
+}
+.slider{
+    margin-right: 16px;
+    width: 890px;
+    background: rgb(0,120,255);
+    height: 323px;
+}
+.imageWrapper{
+
+}
+.imageWrapper img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+}
+.SliderCategoory{background: rgba(66,73,89,.8);
+    height:48px;
+    display: none;
+    bottom: 0;
+}
+.slider:hover .SliderCategoory{
+    display: block;
+}
+.SliderCategoory ul li {
+    display: inline-block;
+    margin-left:10px;
+}
+.SliderCategoory ul li:hover{
+background: #F7F8FA;
+    border-bottom:2px solid #ef3f3e ;
+    transition: border-bottom 100ms;
+}
+.SliderCategoory ul li:hover a{
+    color: #ef3f3e;
+    transition: color 1s;
+    padding-bottom:13px !important;
+
+}
+.SliderCategoory ul li a{
+    display: inline-block;
+    padding : 18px 18px 17px 18px;
+}
+.sliderCategooryIcon i {
+    font-size: 15px;
+    vertical-align: -2px;
+    font-weight: bold;
+}
+main.articleWrapper{
+margin-top: 20px;
+    width: 880px;
+}
+.moreArticlsWrapper{
+    height:40px;
+    border-right-width: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#textEndarticle{
+    margin-top:12px;
+}
+#moreArticles{
+    margin-top:12px;
+}
+.articleWrapper article.articleBox{
+    margin-top: 40px;
+}
+section.articleTextWrapper{
+    width: 562px;
+    margin-top: 8px;
+}
+.articleTextImgWrapper{
+    padding: 15px 20px;
+}
+.articleHeader{
+    min-height:40px;
+    background: #F7F8FA;
+    border-radius: 3px 3px 0px 0px;
+}
+.articleIcon{
+    padding: 8px 0px;
+}
+.articleIconWrapp i{
+    font-size: 25px !important;
+}
+.TitleArticle{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.articleTexr{
+    line-height:23px;
+    color: #434343;
+    width: 562px;
+    text-align: right;
+}
+.articleImgaeWrapper{
+    width: 262px;
+    height: 126px;
+    margin-left: 16px;
+}
+.articleImgaeWrapper img {
+    min-width: 100%;
+    min-height: 100%;
+
+}
+.articleFooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 0px 0px 3px 3px;
+}
+.informatArticleWrapper{
+
+}
+.articleFooter{
+    background: #F7F8FA;
+}
+.informatArticleWrapper ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.leftAisdeWrapper{
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.leftAisdeWrapper .asidebox:first-child{
+    margin-top:0;
+}
+.asidebox{
+    width: 100%;
+    height: 239px;
+    margin-top:42px;
+}
+.asidebox:hover .tabTitlewrapper .TabTitleIcon i{
+    transform: rotate(360deg);
+    transition: transform 800ms ;
+}
+.asideTextIMG{
+height: 199px;
+}
+.returnNumber{
+    padding-top: 5px;
+}
+.asideTextIMG li{
+    margin-top:22px;
+}
+.asideSearch{
+    height: 40px;
+}
+.asideSearch input[type="text"]{
+    padding: 0px 10px;
+}
+.asideSearch input[type="text"]:focus{
+    outline-color: #ef3f3e;
+}
+.asideSearch button[type="submit"]{
+left: 0;
+    background: #ef3f3e;
+    border-radius: 3px 0px 0px 3px;
+}
+.asideSearch button[type="submit"]:focus{
+    outline: 0;
+
+}
+.asideSearch button[type="submit"] i{
+    font-size: 18px !important;
+}

@@ -1,1 +1,201 @@
 @import url("font-classes/font-classes.css");
+body{
+	direction: rtl;
+}
+img{
+
+}
+html,body{
+}
+/*-----------------box style !!! ----------------*/
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.borderRad3px{
+	border-radius: 3px;
+}
+.borderTopRad3px{
+	border-radius: 3px 3px 0px 0px;
+}
+.INBLdisplay{
+display: inline-block;
+}
+.posrel{
+	position: relative;
+}
+.posab{
+	position: absolute;
+}
+.posfix{
+	position: fixed;
+}
+.top0{
+	top: 0px;
+}
+.top100perecent{
+	top: 100%;
+}
+.bottom0{
+	bottom: 0;
+}
+.width100{
+	width: 100%;
+}
+.mwidth100{
+	min-width: 100%;
+}
+.height100{
+	height: 100%;
+}
+.flLeft{
+	float: left;
+}
+.flRight{
+	float: right;
+}
+.clearBoth{
+	clear: both;
+}
+.overHide{
+	overflow: hidden;
+}
+.boxSizingBb{
+	box-sizing: border-box;
+}
+.borderGrayLight{
+	border : 1px solid #767676;
+}
+.bxshadow{
+	box-shadow: 0px 0px 6px 0px #a5a5a5;
+}
+.zinbig{
+	z-index: 99999999;
+}
+.borderLeftLightGrat{
+	border-left: 2px solid #767676;
+}
+.bordeRrightGrayDark{
+	border-right: 2px solid #474747;
+}
+.borderBottomGrayLight{
+	border-bottom: 2px solid #cccccc;
+}
+.border0{
+	border: 0;
+}
+/*-----------------box style !!! ----------------*/
+/*-----------------color background  !!! ----------------*/
+.backblack{
+	background: rgb(55, 60, 67);
+}
+.backWhite{
+	background-color: #fff;
+}
+.colorWHITE{
+	color: #fff;
+}
+.colorBlack{
+	color: #000;
+}
+.colorBackground{
+	background: #fff;
+}
+.redcolorHover:hover{
+	color: #E02F2F;
+}
+.bluecolorHover:hover{
+	color: #0083BE;
+}
+.orangecolorHover:hover{
+	color: #FF9900;
+}
+.grayColorLight{
+	color:#767676;
+}
+.grayBackgroundLight{
+	background: #767676;
+}
+.grayColorDark{
+	color:#474747;
+}
+.grayBackgroundDarks{
+	background: #474747;
+}
+.redcolor{
+	color : #ef3f3e ;
+}
+.paddingRightLeft20{
+	padding: 0px 20px;
+}
+/*-----------------color background  !!! ----------------*/
+
+/*-----------------text style ----------------*/
+.verticla-2{
+	vertical-align: -2px;
+}
+.bold{
+	font-weight: bold;
+}
+.font28{
+	font-size: 28px;
+}
+
+.font22{
+	font-size: 22px;
+}
+.font20{
+	font-size: 20px;
+}
+.font19{
+	font-size: 19px;
+}
+
+.font18{
+	font-size: 18px;
+}
+
+.font16{
+	font-size: 16px;
+}
+.font15{
+	font-size: 15px;
+}
+.font14{
+	font-size: 14px;
+}
+.font13{
+	font-size: 13px;
+}
+.font12{
+	font-size: 12px;
+}
+.font11{
+	font-size: 11px;
+}
+a{
+	text-decoration: none;
+}
+.textCenter{
+	text-align: center;
+}
+/*-----------------text style ----------------*/
+.mainMenuPrimaryLi{
+	padding-left:10px !important;
+	background-size: 10px 10px;
+	background-repeat:no-repeat;
+	transition: background-image 1s;
+}
+#gotop{
+	width: 50px;
+	height: 50px;
+	background: #ef3f3e;
+	right: 50px;
+	bottom: 10%;
+border-radius: 50%;
+	padding: 5px 0px;
+	opacity: 0;
+}
+.gotopIconWrapper i{
+	font-size:40px;
+}

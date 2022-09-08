@@ -1,0 +1,110 @@
+#footerPage{
+    background: #474747;
+    margin-top: 40px;
+    border-top: 2px solid #6c6c6c;
+    height:300px;
+}
+.footercolsWrapper{
+    height: 250px;
+}
+.footercol{
+    width: 30%;
+    background: #474747;
+    margin-left: 5%;
+    float: right;
+}
+.footercolsWrapper .footercol:last-child{
+    margin-left: 0;
+
+}
+.footerColTitleWrapper{
+    padding: 10px 0px;
+    border-bottom: 2px outset #cccccc;
+}
+.footerColIcon i{
+    font-size: 19px;
+    margin:0px 0px 0px 4px;
+    color: #ffffff;
+}
+.footercol:hover .footerColTitleWrapper .footerColIcon i{
+    transform: rotate(360deg);
+    transition: transform 800ms;
+}
+.colData{
+    height: 83%;
+}
+.footerLinkWrapper .colData{
+    padding: 0px 16px;
+    text-align: center;
+}
+.footerLinkWrapper .colData ul li{
+    margin-top:18px;
+}
+.footerLinkWrapper .colData ul{
+    display: inline-block;
+}
+.linksCol1{
+    margin-left: 85px;
+}
+.footerLinkWrapper .colData ul li:hover .footerCOlText{
+    color: #ef3f3e !important;
+}
+
+.footerLinkWrapper .colData ul li:hover .footerColIcon i{
+    transform: rotate(360deg);
+    transition: transform 800ms;
+}
+.newsEmail form{
+    direction: ltr;
+    position: relative;
+    margin-top: 30px;
+}
+.newsEmail form input{
+    height: 30px;
+    border-radius: 1px;
+    padding-left: 16px;
+    width: 80%;
+}
+.newsEmail form button{
+position: absolute;
+    height:30px;
+    width: 10%;
+    background: #ef3f3e;
+    border-radius: 3px 0px 0px 3px;
+    left: 0;
+}
+.newsEmail form input:focus{
+    outline-color: #ef3f3e;
+}
+.newsEmail form input:focus + button i{
+    transform: rotate(360deg);
+    transition: transform 800ms;
+}
+.footCopyRight{
+    height: 75px;
+    background: #222;
+    padding: 15px 5px;
+}
+.suportwebsite{
+    float: left;
+    direction: ltr;
+}
+.suportwebsite li{
+    display: inline-block;
+}
+.suportIcon i{
+    font-size: 18px;
+}
+.footerSiteLink li{
+    display: inline-block;
+    padding: 0px 10px;
+    border-left: 1px solid #cccccc;
+}
+.footerSiteLink li a {
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.copyrightText{
+    margin-top: 15px;
+}
